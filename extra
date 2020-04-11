@@ -1,0 +1,43 @@
+Car Accessories (MERN)
+
+Class Based, Functional Comp with Hooks
+JSON
+
+I) Get API - fetch / axios
+1. Global Search - Filter on Homepage (static done)
+Display Company Logos(done) and a slider/video on Home Page
+2. Clicking on a single Logo will route us to Car Models  | Filter Car Models
+eg:- XCENT, VERNA NEXT GEN, VERNA, TUCSON, TERRACAN, SONATA, SANTRO, I20, I20
+3. Another Options page - with following options:-
+eg:- Seat Cover, Leather, Car Accessories, Video, Installation, PDF info
+    1. Seat Cover - Only gallery (Navigation - Back to options page)
+    2. PDF Info - PDF Viewer (Navigation - Back to options page)
+    3. Video - Video player list ((Navigation - Back to options page)
+    4. Accessories - Accesories List will have several categories like wheels, mirror, seat covers, music system, headlights, etc
+    4.1. Single Accessory page  (Gallery, Description)
+5. Pagination
+
+II) DELETE API -
+Delete company logos
+Delete Car Models
+Delete Accessories
+
+III) POST API - fetch/axios
+We can add Company logos on Home page (Will learn how to upload images)
+We should be able to create Car Model, which contains - 
+a) Car Model image
+b) Car Model Title
+c) Short Description
+Similarly, we should be able to create Single Accessory, which will contain:-
+a) Accessory Image gallery
+b) Accessory Title
+c) Colors Available (It should display color in circle)
+d) Description
+
+
+IV) PUT - Updating PATCH
+
+
+
+Packages:- 
+npm i react-router-dom json-server

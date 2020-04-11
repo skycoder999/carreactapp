@@ -1,0 +1,126 @@
+{
+  "logosList": [
+    {
+      "id": 1,
+      "title": "Jaguar",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 2,
+      "title": "Audi",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 3,
+      "title": "BMW",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 4,
+      "title": "Chevrolet",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 5,
+      "title": "Jaguar",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 6,
+      "title": "Datsun",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 7,
+      "title": "Land Rover",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 8,
+      "title": "Mahindra",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 9,
+      "title": "Mazda",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 10,
+      "title": "Nissan",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 11,
+      "title": "Skoda",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 12,
+      "title": "Toyota",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    }
+  ],
+  "carModelsList": [
+    {
+      "id": 1,
+      "title": "Jaguar",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 2,
+      "title": "Audi",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 3,
+      "title": "BMW",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 4,
+      "title": "Chevrolet",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 5,
+      "title": "Jaguar",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 6,
+      "title": "Datsun",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 7,
+      "title": "Land Rover",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 8,
+      "title": "Mahindra",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 9,
+      "title": "Mazda",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 10,
+      "title": "Nissan",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 11,
+      "title": "Skoda",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    },
+    {
+      "id": 12,
+      "title": "Toyota",
+      "img": "https://cdn.worldvectorlogo.com/logos/bmw-13672.svg"
+    }
+  ]
+}

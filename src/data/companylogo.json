@@ -1,0 +1,64 @@
+{
+    "companylogos": [
+        {
+            "id": 1,
+            "title": "Jaguar",
+            "img": "asdsad"
+        },
+        {
+            "id": 2,
+            "title": "Audi",
+            "img": "asdsad"
+        },
+        {
+            "id": 3,
+            "title": "BMW",
+            "img": "asdsad"
+        },
+        {
+            "id": 4,
+            "title": "Chevrolet",
+            "img": "asdsad"
+        },
+        {
+            "id": 5,
+            "title": "Jaguar",
+            "img": "asdsad"
+        },
+        {
+            "id": 6,
+            "title": "Datsun",
+            "img": "asdsad"
+        },
+        {
+            "id": 7,
+            "title": "Land Rover",
+            "img": "asdsad"
+        },
+        {
+            "id": 8,
+            "title": "Mahindra",
+            "img": "asdsad"
+        },
+        {
+            "id": 9,
+            "title": "Mazda",
+            "img": "asdsad"
+        },
+        {
+            "id": 10,
+            "title": "Nissan",
+            "img": "asdsad"
+        },
+        {
+            "id": 11,
+            "title": "Skoda",
+            "img": "asdsad"
+        },
+        {
+            "id": 12,
+            "title": "Toyota",
+            "img": "asdsad"
+        }
+    ]
+}
