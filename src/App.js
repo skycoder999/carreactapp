@@ -16,6 +16,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/models" component={Models} />
+            <Route exact path="/models/:manufacturer" component={Models} />
             <Route exact path="/accesories" component={Accesories} />
           </Switch>
         </Styled.MainContainer>

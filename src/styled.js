@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
     margin: 0;
     padding: 0;
     height: auto;
-    background-color: #fafafa;
+    background-color: #da0101;
     BORDER: 1PX SOLID #b1b1b1;
 `;
 

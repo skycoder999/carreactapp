@@ -27,12 +27,13 @@ ul {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #053e79;
+    background-color: #000;
   }
   
   li {
     float: right;
     color: #fff !important;
+    text-transform: uppercase;
   }
   
   li a{
@@ -44,6 +45,6 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #f40202;
   }
 `;

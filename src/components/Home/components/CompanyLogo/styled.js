@@ -6,29 +6,39 @@ export const MainContainer = styled.div`
 `;
 
 export const CompanyLogo = styled.div`
-    width: 300px;
-    height: 200px;
+    width: 260px;
+    height: 210px;
     padding: 10px;
     border: 2px solid #d5d5d5;
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 9px 9px #0000004f;
     background-color: #fff;
 
 :hover{
-    border: 2px solid #ece3e3;
-    transition: border 1s;
+    transition: border-radius 1s;
+    box-shadow: 0px 15px 16px #171616;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 
 .image{
-    width: 150px;
+    width: 200px;
     height: 150px;
     justify-content: center;
     align-items: center;
     display: flex;
+   // box-shadow: 0px 1px 5px #735f5f;
+    padding: 20px;
+}
+
+.image:hover{
+    width: 210px;
+    height: 155px;  
+    /* box-shadow: 0px 5px 10px #735f5f; */
 }
 
 .title{

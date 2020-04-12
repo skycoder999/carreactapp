@@ -17,7 +17,8 @@ const Home = () => {
 
     const onChangeHandler = (e) => {
         console.log(e.target.value)
-        this.props.userText(event.target.value)
+        //    this.setState({ "userInput": event.target.value })
+        // this.props.userText(event.target.value)
     };
 
     return (

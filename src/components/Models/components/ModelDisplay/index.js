@@ -20,8 +20,6 @@ const ModelDisplay = (props) => {
         <Fragment>
             {renderModelList}
         </Fragment>
-
-
     )
 }
 

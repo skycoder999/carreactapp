@@ -41,3 +41,6 @@ IV) PUT - Updating PATCH
 
 Packages:- 
 npm i react-router-dom json-server
+
+JSON Server file in watch Models
+json-server --watch db.json --port 8900
