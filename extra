@@ -4,7 +4,11 @@ Class Based, Functional Comp with Hooks
 JSON
 
 I) Get API - fetch / axios
+<<<<<<< HEAD
 1. Logo Search - Filter on Homepage (static done)  // Need to learn how to create Global search
+=======
+1. Global Search - Filter on Homepage (static done)
+>>>>>>> 6b65b0a0cf8d9bcc638ad939015b6d2654032374
 Display Company Logos(done) and a slider/video on Home Page
 2. Clicking on a single Logo will route us to Car Models  | Filter Car Models
 eg:- XCENT, VERNA NEXT GEN, VERNA, TUCSON, TERRACAN, SONATA, SANTRO, I20, I20

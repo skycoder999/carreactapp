@@ -50,6 +50,7 @@ export const CarModelDisplay = styled.div`
     letter-spacing: -0.75px;
     font-weight: 600;
     font-family: sans-serif;
+<<<<<<< HEAD
     color: #474747;
 }
 
@@ -79,6 +80,8 @@ export const CarModelDisplay = styled.div`
     background-color: #00a77e;
     cursor: pointer;
 
+=======
+>>>>>>> 6b65b0a0cf8d9bcc638ad939015b6d2654032374
 }
 }
 `;
