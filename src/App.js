@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Models from './components/Models';
-import Accesories from './components/Accesories';
+import ModelDetailsComponent from './components/Models/components/ModelDisplay/modeldetailscomponent';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/models" component={Models} />
             <Route exact path="/models/:manufacturer" component={Models} />
-            <Route exact path="/accesories" component={Accesories} />
+            <Route exact path="/modeldetail" component={ModelDetailsComponent} />
+            {/*  <Route exact path="/accesories" component={Accesories} /> */}
           </Switch>
         </Styled.MainContainer>
         <Footer />

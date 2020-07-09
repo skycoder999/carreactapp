@@ -5,21 +5,38 @@ import { Link } from 'react-router-dom';
 
 const CompanyLogo = (props) => {
 
-    const renderList = props.dataList.map((data) => {
-        return (
-            <Styled.MainContainer>
-                <Styled.CompanyLogo key={data.id}>
-                    <div>
-                        <p> <Link to={`/models/${data.manufacturer}`}><img src={data.img} className="image" alt={data.title} /></Link></p>
-                    </div>
-                </Styled.CompanyLogo>
-            </Styled.MainContainer>
-        )
-    });
+    /*   const renderList = props.dataList.map((data) => {
+          return (
+              <Styled.MainContainer>
+                  <Styled.CompanyLogo key={data.id}>
+                      <div>
+                          <p> <Link to={`/models/${data.manufacturer}`}><img src={data.img} className="image" alt={data.title} /></Link></p>
+                      </div>
+                  </Styled.CompanyLogo>
+              </Styled.MainContainer>
+          )
+      });
+   */
 
+    const renderList = ({ dataList }) => {
+        if (dataList) {
+            return dataList.map((data) => {
+                return (
+                    <Styled.MainContainer>
+                        <Styled.CompanyLogo key={data.id}>
+                            <div>
+                                <p> <Link to={`/models/${data.manufacturer}`}><img src={data.img} className="image" alt={data.title} /></Link></p>
+                            </div>
+                        </Styled.CompanyLogo>
+                    </Styled.MainContainer>
+                )
+            })
+
+        }
+    }
     return (
         <Fragment>
-            {renderList}
+            {renderList(props)}
         </Fragment>
     )
 

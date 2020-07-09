@@ -5,8 +5,12 @@ export const MainContainer = styled.div`
     margin: 0;
     padding: 0;
     height: auto;
-    background-color: #da0101;
-    BORDER: 1PX SOLID #b1b1b1;
+    background-color: #0a0222;
+    border: 1px solid #b1b1b1;
+
+    a{
+        text-decoration: none;
+    }
 `;
 
 

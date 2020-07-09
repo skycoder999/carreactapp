@@ -19,7 +19,7 @@ export const Navigation = styled.div`
 }
 
 .logo a:hover{
-  color:red;
+  color: #0d3e91;
 }
 
 ul {
@@ -45,6 +45,6 @@ ul {
   }
   
   li a:hover {
-    background-color: #f40202;
+    background-color: #00a6ce;
   }
 `;

@@ -13,10 +13,10 @@ export const Footer = styled.div`
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: -0.30px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
   }
   
   li {

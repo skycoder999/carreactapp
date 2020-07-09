@@ -4,7 +4,7 @@ Class Based, Functional Comp with Hooks
 JSON
 
 I) Get API - fetch / axios
-1. Global Search - Filter on Homepage (static done)
+1. Logo Search - Filter on Homepage (static done)  // Need to learn how to create Global search
 Display Company Logos(done) and a slider/video on Home Page
 2. Clicking on a single Logo will route us to Car Models  | Filter Car Models
 eg:- XCENT, VERNA NEXT GEN, VERNA, TUCSON, TERRACAN, SONATA, SANTRO, I20, I20
@@ -37,7 +37,7 @@ d) Description
 
 IV) PUT - Updating PATCH
 
-
+Context API Implement
 
 Packages:- 
 npm i react-router-dom json-server

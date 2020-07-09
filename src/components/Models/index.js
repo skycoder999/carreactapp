@@ -2,13 +2,12 @@ import React, { useState, useEffect, Fragment } from 'react';
 import ModelDisplay from './components/ModelDisplay';
 import * as Styled from './styled';
 
-const url = "http://localhost:8900/carModelsList";
-export default function Models(props) {
+//const url = "http://localhost:8900/carModelsList";
 
+/* http://localhost:8900/carModelsList?manufacturer=jaguar */
+const Models = (props) => {
     const [carModel, setCarModel] = useState([]);
-
     //const [filterModel, setfilterModel] = useState([]);
-
     /*    useEffect(() => {
            fetch(`${url}/${this.props.match.params.category}`, { method: "GET" })
                .then((res) => res.json())
@@ -18,10 +17,13 @@ export default function Models(props) {
        }, []); */
 
     useEffect(() => {
-        fetch(url, { method: 'GET' })
+        fetch(`http://localhost:8900/carModelsList?manufacturer=${props.match.params.manufacturer}`, { method: 'GET' })
+            //fetch(`http://localhost:8900/carModelsList?manufacturer=jaguar`, { method: 'GET' })
             .then((res) => res.json())
             .then((data) => {
                 setCarModel(data);
+                //     console.log(props)
+                // console.log(props.match.params.manufacturer)
             })
     }, []);
 
@@ -36,3 +38,5 @@ export default function Models(props) {
         </Fragment>
     )
 }
+
+export default Models;
