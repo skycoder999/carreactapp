@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import * as Styled from './styled';
 import Home from './components/Home';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
 import Models from './components/Models';
 import ModelDetailsComponent from './components/Models/components/ModelDisplay/modeldetailscomponent';
 
